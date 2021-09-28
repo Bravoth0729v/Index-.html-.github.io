@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'bree-serif';
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    background-image: url();
+}
+#navbar ul{
+    display: flex;
+    font-size: 1.3rem;
+}
+#logo img{
+    border-radius: 50px;
+}
+:root{
+    --navber-height:59px
+}
+#navbar{
+    position: relative;
+}
+#navbar ul li{
+    list-style: none;
+    padding: 10px 22px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+#navbar ul li a:hover{
+   color: black;
+   background-color: white;
+}
+#navbar::before{
+    content: '';
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background: url(../img/grayer.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.95;
+}
+#home h1{
+    color: white;
+    font-size: 2rem;
+}
+#home p{
+    color: white;
+    /* font-size: 1rem; */
+}
+#home button{
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+#home button:hover{
+    background: black;
+    color: white;
+}
+
+.footer h1{
+    color: orange;
+    text-align: center;
+    background-color: tomato;
+}
+.box{
+    width: 40%;
+    height: 250px;
+    border: 1px solid white;
+    padding: 10px 10px;
+    background-color: wheat;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.box img{
+    border-radius: 50px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+}
+.footer .box{
+    text-align: center;
+    margin: 5px;
+    font-size: 1.1rem;
+    color: black;
+}
+.footer .box:hover{
+    text-decoration: underline;
+    box-shadow: 1px 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.sd h1{
+    padding: 6px;
+    color: white;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    background-color:tomato  
+}
+.sd div img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.sd div{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: wheat;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-top: 8px;
+    width: 20%;
+}
+.sd span{
+    display: flex;
+}
+.sd span div{
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 20px;
+}
+.dir{
+    background-color: blue;
+    margin-bottom: 30px;
+}
+.sou{
+    margin: 5px;
+}
+.sou span fieldset legend{
+    text-align: center;
+    padding: 15px;
+}
+.sou span fieldset{
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+    background-color: blue;
+}
+.sou span fieldset legend h1{
+    color: red;
+    font-size: 2rem;
+}
+.sou span h2{
+    color: green;
+    text-decoration: none;
+    text-align: center;
+    width: 45%;
+}
+.sou span h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 5px;
+    background-color: black;
+} 
+.sou span fieldset form label{
+    margin: 5px;
+    padding: 5px 5px;
+}
+.sou span fieldset input{
+    cursor: pointer;
+    width: 250px;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 20px;
+}
+.sou span fieldset label{
+    color: white;
+    text-align: center;
+}
+
+.sou span fieldset .button input{
+    font-size: 1.2rem;
+    width: 49%;
+    padding: 5px 2px;
+}
+.sou span fieldset .button input:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+
+
